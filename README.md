@@ -2,7 +2,19 @@
 
 It is a simple website where it is possible to make notes.
 
-It is yet not deployed.
+## How to run with Docker
+
+docker-compose build
+docker-compose up -d
+
+# Stop
+
+docker-compose down
+
+## How to run using python
+In the root folder, open the terminal and execute the command:
+
+python main.py
 
 ### Login Page
 ![Login Page](https://github.com/vitorpereira26r/python-flask-website/blob/main/public/login-page.png)
