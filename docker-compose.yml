@@ -6,7 +6,7 @@ services:
     container_name: notes-app-flask-container
     build: .
     ports:
-      - "4000:5000"
+      - "6000:5000"
     volumes:
       - .:/app
     environment:
